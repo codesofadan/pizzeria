@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="pizza-3.png" sizes="32x32">
+</head>
+<body>
+    
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="index.html" class="logo"> <i class="fas fa-pizza-slice"></i> Pizzeria</a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+            <div id="menu" class="fas fa-bars"></div>
+        </div>
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="cart-1.png" alt="">
+                <div class="content">
+                    <h3>pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 20</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="cart-2.png" alt="">
+                <div class="content">
+                    <h3>pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 20</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="cart-3.png" alt="">
+                <div class="content">
+                    <h3>pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 20</span>
+                </div>
+            </div>
+            <h3 class="total">total: $60</h3>
+            <a href="#" class="btn">checkout cart</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login form</h3>
+            <input type="email" placeholder="Enter your email" class="box">
+            <input type="password" placeholder="Enter your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login" class="btn">
+        </form>
+       
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(slider-1.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>The <span>tastiest</span> pizza <br> on the planet</h3>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(slider-2.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the <span>tastiest</span> pizza <br> on the planet</h3>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(slider-3.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the <span>tastiest</span> pizza <br> on the planet</h3>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- banner section starts -->
+
+    <section class="banner">
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="banner-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>pizza</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="banner-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>dessert</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="banner-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>pasta</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="banner-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>wines</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- banner section ends -->
+
+    <!-- steps section starts -->
+
+    <section class="steps">
+
+        <h1 class="title">Working <span>Process</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="work-1.gif" alt="">
+                <h3>choose your favorite Meal</h3>
+            </div>
+
+            <div class="box">
+                <img src="work-2.gif" alt="">
+                <h3>free & fast delivery</h3>
+            </div>
+
+            <div class="box">
+                <img src="work-3.gif" alt="">
+                <h3>easy payments methods</h3>
+            </div>
+
+            <div class="box">
+                <img src="work-4.gif" alt="">
+                <h3>and finally, enjoy your food</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- steps section ends -->
+
+    <!-- pizza menu section starts -->
+
+    <section class="pizzas">
+
+        <h1 class="title">pizzas of the <span>month</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="pizza-1.png" alt="">
+                <h3>Fajita</h3>
+                <p>Fusion of Mexican and Italian cuisine, offering a spicy, savory experience in every bite.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="pizza-2.png" alt="">
+                <h3>Chicken Supreme</h3>
+                <p>Each bite is a harmonious blend of savory flavors that ignites a passionate love.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="pizza-3.png" alt="">
+                <h3>margarita</h3>
+                <p>velvety mozzarella melts into a luscious tomato sauce, kissed by fragrant basil leaves.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- pizza menu section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>find us here</h3>
+                <p>Available on all across Social Platforms</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact us</h3>
+                <p>+92305-6976404</p>
+                <a href="#" class="link">Adandevelops@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>Location</h3>
+                <p>230 point of pines dr <br>
+                    colorado springs
+                    united states</p>
+            </div>
+
+        </div>
+        <div class="credit">created by <span>Adandevelops© </span> | all rights reserved!</div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js link -->
+    <script src="script.js"></script>
+
+</body>
+</html>
